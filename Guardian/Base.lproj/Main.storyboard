@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="OJd-HF-baU">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Motivation-->
+        <scene sceneID="HaW-lD-epR">
+            <objects>
+                <viewController id="jge-7g-vUJ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="nIy-0a-XJ5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="inspiration-iphone-wallpapers-2019" translatesAutoresizingMaskIntoConstraints="NO" id="FME-py-4A1">
+                                <rect key="frame" x="20" y="245" width="374" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Inspire" translatesAutoresizingMaskIntoConstraints="NO" id="mDX-Ht-tne">
+                                <rect key="frame" x="20" y="446" width="374" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Motivational-quotes" translatesAutoresizingMaskIntoConstraints="NO" id="fnL-nA-GHF">
+                                <rect key="frame" x="20" y="44" width="374" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="images" translatesAutoresizingMaskIntoConstraints="NO" id="nfK-aH-4bv">
+                                <rect key="frame" x="20" y="647" width="374" height="193"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="B7Z-FE-JCI"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Motivation" image="star.fill" catalog="system" id="gNc-b9-R7d"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vRe-3F-iFU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676.81159420289862" y="-531.02678571428567"/>
+        </scene>
+        <!--Twitter Motivation-->
+        <scene sceneID="wwC-7f-eek">
+            <objects>
+                <viewController id="7BJ-ex-4AR" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="dzb-IW-9W4">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Awesome twitter" translatesAutoresizingMaskIntoConstraints="NO" id="TEN-DE-yXh">
+                                <rect key="frame" x="20" y="-95" width="374" height="555"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="2c2ea3e10ea32f22b946bd7103dc6ea5" translatesAutoresizingMaskIntoConstraints="NO" id="SCw-GK-qid">
+                                <rect key="frame" x="30" y="468" width="374" height="555"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="q" translatesAutoresizingMaskIntoConstraints="NO" id="rcn-ZN-ESj">
+                                <rect key="frame" x="20" y="189" width="374" height="555"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ccL-Cg-fWp"/>
+                        <color key="backgroundColor" red="0.091711543500000006" green="0.1245100126" blue="0.16471490259999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Twitter Motivation" image="checkmark.seal" catalog="system" id="Dtx-xv-cmo"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NFn-cV-NEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1337.68115942029" y="-815.625"/>
+        </scene>
+        <!--Chat-->
+        <scene sceneID="sG3-AI-pI0">
+            <objects>
+                <viewController id="AkJ-mc-LK4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="BUz-dW-4Uc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q5I-wl-1nn"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Chat" image="phone" catalog="system" id="Idc-oy-SkF"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a3e-YI-5j9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2010" y="-763"/>
+        </scene>
+        <!--Home-->
+        <scene sceneID="Dts-i0-eCx">
+            <objects>
+                <viewController id="8oN-4V-WEx" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bg5-En-d7a">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Helment-removebg-preview" translatesAutoresizingMaskIntoConstraints="NO" id="bLS-yT-cKO">
+                                <rect key="frame" x="52" y="319" width="292" height="233"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Gaurdian" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="czj-l9-qJq">
+                                <rect key="frame" x="63" y="126" width="288" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="71"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="dxJ-c9-cn5"/>
+                        <color key="backgroundColor" red="0.035800519640306318" green="0.0" blue="0.35031748007968122" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Home" image="shield.fill" catalog="system" id="ovK-F6-A6S"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PbN-hd-3bf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="676.81159420289862" y="-1136.3839285714284"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="dzu-ze-xiP">
+            <objects>
+                <tabBarController id="OJd-HF-baU" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="5vu-02-mVO">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="8oN-4V-WEx" kind="relationship" relationship="viewControllers" id="IPJ-4Z-w1q"/>
+                        <segue destination="jge-7g-vUJ" kind="relationship" relationship="viewControllers" id="M25-yi-u3Q"/>
+                        <segue destination="7BJ-ex-4AR" kind="relationship" relationship="viewControllers" id="g2U-PR-HXA"/>
+                        <segue destination="AkJ-mc-LK4" kind="relationship" relationship="viewControllers" id="UOa-0h-M7M"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBR-Fz-qkb" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-216" y="-834"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="2c2ea3e10ea32f22b946bd7103dc6ea5" width="1172" height="800"/>
+        <image name="Awesome twitter" width="1224" height="880"/>
+        <image name="Helment-removebg-preview" width="442" height="565"/>
+        <image name="Inspire" width="2048" height="2048"/>
+        <image name="Motivational-quotes" width="1920" height="1280"/>
+        <image name="checkmark.seal" catalog="system" width="128" height="128"/>
+        <image name="images" width="254" height="199"/>
+        <image name="inspiration-iphone-wallpapers-2019" width="700" height="700"/>
+        <image name="phone" catalog="system" width="128" height="115"/>
+        <image name="q" width="1184" height="896"/>
+        <image name="shield.fill" catalog="system" width="128" height="121"/>
+        <image name="star.fill" catalog="system" width="128" height="116"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
